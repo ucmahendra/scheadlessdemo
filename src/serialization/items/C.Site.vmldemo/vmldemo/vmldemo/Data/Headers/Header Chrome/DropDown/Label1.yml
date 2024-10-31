@@ -1,0 +1,26 @@
+﻿---
+ID: "9005893e-4d8f-45e5-b8bb-f3c0e7fdc2fa"
+Parent: "76240f1d-2503-489e-b0e7-8712eaf4e11c"
+Template: "22492b74-cb39-41cf-b079-3421dc8e4da1"
+Path: /sitecore/content/vmldemo/vmldemo/Data/Headers/Header Chrome/DropDown/Label1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T091558Z
+    - ID: "787c6bc4-73c4-4c5d-bd53-5d21f4889112"
+      Hint: Label
+      Value: Label1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87eaae95-42b3-47ad-8a77-c775564ceb42"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T091606Z

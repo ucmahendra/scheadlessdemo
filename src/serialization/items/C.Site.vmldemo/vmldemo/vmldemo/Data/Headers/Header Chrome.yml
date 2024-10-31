@@ -1,0 +1,26 @@
+﻿---
+ID: "03136cbb-49be-437b-a419-9cdb527c6fd7"
+Parent: "4d46f27f-82cf-4cbe-85c5-5e3cd5a157e9"
+Template: "c1e067ee-3bc8-4eb2-bb36-f1cfca524bf1"
+Path: /sitecore/content/vmldemo/vmldemo/Data/Headers/Header Chrome
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09ba23fb-4f86-4fa3-88e1-283ddfe89ebc"
+      Hint: PresonalizedText
+      Value: This is Chrome Browser
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T091150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "feb3c496-67ee-45a1-9a1a-04a361a11354"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T091213Z

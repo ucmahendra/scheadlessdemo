@@ -1,0 +1,23 @@
+﻿---
+ID: "4d46f27f-82cf-4cbe-85c5-5e3cd5a157e9"
+Parent: "ec51ee6c-8b01-45bf-847e-fb4e3ceef2e7"
+Template: "262c8647-48cb-456e-9b79-2bae325e4f90"
+Path: /sitecore/content/vmldemo/vmldemo/Data/Headers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T091133Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7b06d5f-30fa-480f-abd6-e8432b9d4d4f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T091133Z

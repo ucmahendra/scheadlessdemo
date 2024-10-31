@@ -1,0 +1,140 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "vmldemo.Sitecore.Items.Master",
+    "items": {
+        "includes": [
+          {
+            "name": "C.System.Settings.Services.RenderingHosts",
+            "path": "/sitecore/system/Settings/Services/Rendering Hosts",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "name": "C.System.Settings.Services.APIKey",
+            "path": "/sitecore/system/Settings/Services/API Keys",
+            "scope": "descendantsOnly",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "name": "M.Foundation.Templates",
+            "path": "/sitecore/templates/Foundation/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Feature.Templates",
+            "path": "/sitecore/templates/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Project.Templates",
+            "path": "/sitecore/templates/Project/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Foundation.Branches",
+            "path": "/sitecore/templates/Branches/Foundation/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Feature.Branches",
+            "path": "/sitecore/templates/Branches/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Project.Branches",
+            "path": "/sitecore/templates/Branches/Project/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Foundation.PlaceholderSettings",
+            "path": "/sitecore/layout/Placeholder Settings/Foundation/vmldemo",
+            "allowedPushOperations": "CreateUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Feature.PlaceholderSettings",
+            "path": "/sitecore/layout/Placeholder Settings/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Project.PlaceholderSettings",
+            "path": "/sitecore/layout/Placeholder Settings/Project/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Foundation.MediaLibrary",
+            "path": "/sitecore/media library/Foundation/vmldemo",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "name": "M.Feature.MediaLibrary",
+            "path": "/sitecore/media library/Feature/vmldemo",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "name": "M.Project.MediaLibrary",
+            "path": "/sitecore/media library/Project/vmldemo",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },          
+          {
+            "name": "M.Feature.Renderings",
+            "path": "/sitecore/layout/Renderings/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Project.Renderings",
+            "path": "/sitecore/layout/Renderings/Project/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.Feature.Layouts",
+            "path": "/sitecore/layout/Layouts/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },        
+          {
+            "name": "M.Project.Layouts",
+            "path": "/sitecore/layout/Layouts/Project/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.System.Languages",
+            "path": "/sitecore/system/Languages",
+            "allowedPushOperations": "CreateAndUpdate",
+            "scope": "descendantsOnly"
+          },
+          {
+            "name": "M.System.Settings.Feature.Modules",
+            "path": "/sitecore/system/Settings/Feature/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.System.Settings.Foundation.Modules",
+            "path": "/sitecore/system/Settings/Foundation/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          },
+          {
+            "name": "M.System.Modules.Powershell.Scripts",
+            "path": "/sitecore/system/Modules/PowerShell/Script Library/vmldemo",
+            "allowedPushOperations": "createUpdateAndDelete",
+            "scope": "itemAndDescendants"
+          }
+        ]
+    }
+}

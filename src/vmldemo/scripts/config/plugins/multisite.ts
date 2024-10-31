@@ -26,7 +26,7 @@ class MultisitePlugin implements ConfigPlugin {
     }
 
     return Object.assign({}, config, {
-      sites: JSON.stringify(sites),      
+      sites: JSON.stringify(sites),
     });
   }
 }

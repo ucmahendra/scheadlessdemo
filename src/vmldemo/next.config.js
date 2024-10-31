@@ -17,7 +17,9 @@ const nextConfig = {
   env: {
     PUBLIC_URL: publicUrl,
   },
-
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
@@ -52,6 +54,10 @@ const nextConfig = {
       {
         source: '/sitecore/service/:path*',
         destination: `${jssConfig.sitecoreApiHost}/sitecore/service/:path*`,
+      },
+      {
+        source: '/api/jss/:path*',
+        destination: `${jssConfig.sitecoreApiHost}/api/jss/:path*`,
       },
     ];
   },

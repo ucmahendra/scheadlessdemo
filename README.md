@@ -55,6 +55,8 @@
 8. Sync the content
    - Run `dotnet tool restore` in the root directory
    - Run `dotnet sitecore login --authority https://id.vmldemo.localhost --cm https://cm.vmldemo.localhost --allow-write true` which will launch the login page to 
+   - Run `dotnet sitecore ser push -i vmldemo.Sitecore.Items.Master`
+   - Run `dotnet sitecore ser push -i vmldemo.Sitecore.Items.Content`
 9. Publish the .NET solution
    - Open the `Platform.sln` in Visual Studio
    - Right-click on the Platform project and select Publish
@@ -98,3 +100,6 @@ If you made updates to any of the Dockerfiles or to the .env_source file that wi
 }`
 
 - Local Layout Service (for the Home item): https://cm.vmldemo.localhost/sitecore/api/layout/render/jss?item=/&sc_apikey=3E6E0AED-13B9-4132-8867-BCBC29C38540&sc_mode=normal&sc_site=vmldemo
+
+
+------------------------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+﻿---
+ID: "76f473bd-5c22-46af-8a15-ef4054521cfe"
+Parent: "c9314fef-facd-4d22-b259-bca31c7c8c0f"
+Template: "22492b74-cb39-41cf-b079-3421dc8e4da1"
+Path: /sitecore/content/vmldemo/vmldemo/Data/Headers/Header Safari/DropDown/Label1/Link
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T091618Z
+    - ID: "696431ec-7f16-4b0b-8081-3c73fd8b9ba7"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{93CCC955-2CD8-459E-B98F-5C11AB1EC0BD}" />
+    - ID: "787c6bc4-73c4-4c5d-bd53-5d21f4889112"
+      Hint: Label
+      Value: Link
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "894dd2a1-3ede-4bbd-9508-ce8705dec3b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T091632Z

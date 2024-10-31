@@ -1,0 +1,21 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "vmldemo.Sitecore.Items.Content",
+    "references": ["vmldemo.Sitecore.Items.Master"],
+    "items": {
+        "includes": [
+          {
+            "name": "C.Site.vmldemo",
+            "path": "/sitecore/content/vmldemo",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+		  {
+            "name": "C.Site.Forms",
+            "path": "/sitecore/Forms",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+﻿---
+ID: "362687ba-7965-47cc-ad98-f2989ea5cb26"
+Parent: "4d46f27f-82cf-4cbe-85c5-5e3cd5a157e9"
+Template: "c1e067ee-3bc8-4eb2-bb36-f1cfca524bf1"
+Path: /sitecore/content/vmldemo/vmldemo/Data/Headers/Header Safari
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09ba23fb-4f86-4fa3-88e1-283ddfe89ebc"
+      Hint: PresonalizedText
+      Value: This is Chrome Safari
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T091150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "76f5f51e-69fc-47d5-ac04-fc8effef3055"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T091726Z
