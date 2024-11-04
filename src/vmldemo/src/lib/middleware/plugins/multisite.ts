@@ -32,6 +32,9 @@ class MultisitePlugin implements MiddlewarePlugin {
   }
 
   async exec(req: NextRequest, res?: NextResponse): Promise<NextResponse> {
+    if (process.env.RENDERINGHOST_HOST_HEADER) {
+      req.headers.set('host', req.headers.get(process.env.RENDERINGHOST_HOST_HEADER) as string);
+    }
     return this.multisiteMiddleware.getHandler()(req, res);
   }
 }

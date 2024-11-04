@@ -14,6 +14,14 @@ class MultisitePlugin implements ConfigPlugin {
 
   async exec(config: JssConfig) {
     let sites: SiteInfo[] = [];
+
+    if (config.disableFetchSiteInformation) {
+      console.log('Fetching site information is disabled.');
+      return Object.assign({}, config, {
+        sites: JSON.stringify(sites),
+      });
+    }
+
     console.log('Fetching site information');
     try {
       const siteInfoService = new GraphQLSiteInfoService({

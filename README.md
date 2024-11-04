@@ -49,7 +49,6 @@
 6. (only on setup) Initialize your Sitecore Environment: `docker compose -f .\docker-compose.init.yml up`
    - This process will take a little bit. Ensure that you see "Set Sitecore admin password"
    - Once you do, hit Ctrl + C
-   - If you did not delete your mdf and ldf files as described in the [Performing Project updates](#performing-project-updates) section, hit Ctrl + C when you see the "Sitecore databases are detected. Skipping deployment."
 7. Start Sitecore: `docker compose up -d --remove-orphans`
    - You won't need the `remove-orphans` after the first time you run this.
 8. Sync the content

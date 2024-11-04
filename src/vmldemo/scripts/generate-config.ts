@@ -22,6 +22,7 @@ const defaultConfig: JssConfig = {
   graphQLEndpoint: process.env[`${constantCase('graphQLEndpoint')}`],
   layoutServiceConfigurationName: process.env[`${constantCase('layoutServiceConfigurationName')}`],
   publicUrl: process.env[`${constantCase('publicUrl')}`],
+  disableFetchSiteInformation: process.env[`${constantCase('disableFetchSiteInformation')}`],
 };
 
 generateConfig(defaultConfig);
