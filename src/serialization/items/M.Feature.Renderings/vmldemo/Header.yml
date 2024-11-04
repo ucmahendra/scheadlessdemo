@@ -63,6 +63,12 @@ SharedFields:
     }
     
     
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/vmldemo/Header/Header
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./*[@@name='Data']|query:$site/*[@@name='Data']/*[@@templateid='{262C8647-48CB-456E-9B79-2BAE325E4F90}']|query:$sharedSites/*[@@name='Data']/*[@@templateid='{262C8647-48CB-456E-9B79-2BAE325E4F90}']"
 Languages:
 - Language: en
   Versions:
@@ -81,11 +87,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75b3f0c5-89cb-4bf1-b9a4-35ce233e692e"
+      Value: "4f57f829-0652-4ff8-b50e-665e0972f730"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20241031T090200Z
+      Value: 20241104T175313Z

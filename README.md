@@ -53,7 +53,7 @@
    - You won't need the `remove-orphans` after the first time you run this.
 8. Sync the content
    - Run `dotnet tool restore` in the root directory
-   - Run `dotnet sitecore login --authority https://id.vmldemo.localhost --cm https://cm.vmldemo.localhost --allow-write true` which will launch the login page to 
+   - Run `dotnet sitecore login --authority https://id.vmldemo.localhost --cm https://cm.vmldemo.localhost --allow-write true` which will launch the login page
    - Run `dotnet sitecore ser push -i vmldemo.Sitecore.Items.Master`
    - Run `dotnet sitecore ser push -i vmldemo.Sitecore.Items.Content`
 9. Publish the .NET solution
@@ -102,3 +102,5 @@ If you made updates to any of the Dockerfiles or to the .env_source file that wi
 
 
 ------------------------------------------------------------------------------------------------
+Know Issue - 
+* Rendering host URL is currently not working and require some time to investigate
