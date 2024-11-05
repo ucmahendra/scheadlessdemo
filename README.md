@@ -1,4 +1,4 @@
-## Project Details (as of Feb 2024)
+## Project Details
 
 - Sitecore XM 10.3.1-ltsc2019
 - SXA 10.3
